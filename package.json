@@ -1,0 +1,11 @@
+{
+    "name": "uploadServer",
+    "description": "test server for testing upload picture functions",
+    "author": {
+        "name": "chao.meng",
+        "email": "gtts@outlook.com"
+    },
+    "dependencies": {
+        "multiparty": "4.1.2"
+    }
+}
