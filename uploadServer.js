@@ -2,11 +2,11 @@
 
 var http = require('http');
 var multiparty = require('multiparty');
-var sys = require('sys');
+var sys = require('util');
 var fs = require('fs');
 var path = require('path');
 
-var localIP = '192.168.115.40:9999';
+var localIP = '192.168.2.4:9999'; // 修改为你的ip
 
 var server = http.createServer(function(req, res) {
     console.log(JSON.stringify(req.url));
